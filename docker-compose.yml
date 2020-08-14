@@ -1,0 +1,7 @@
+version: '2'
+services:
+    cacti:
+        image: quantumobject/docker-cacti
+        # build: ./cacti
+        privileged: true
+        restart: always
